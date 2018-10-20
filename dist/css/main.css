@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css?family=Economica:400,700|Open+Sans+Condensed:300");
+html,
+body,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+* {
+  font-family: 'Economica', 'Open Sans Condensed', sans-serif;
+}
+
+header {
+  background-color: #0a0a0a;
+  display: flex;
+  padding: 40px 0;
+}
+
+header .job-title {
+  border: 1px solid #828282;
+  width: 110px;
+  text-align: center;
+  margin: auto;
+  padding: 22px 0px;
+}
+
+header .job-title .fname p, header .job-title .lname p {
+  color: #f5f5f5;
+  font-size: 18px;
+}
+
+header .job-title .lname p {
+  margin-bottom: 10px;
+}
+
+header .job-title .job p {
+  color: #828282;
+  font-size: 22px;
+  font-family: PostScriptum;
+  margin-bottom: -25px;
+}
+
+section#home {
+  background-image: url("../img/man_guitar_front.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+nav ul {
+  display: inline-flex;
+  margin-left: 200px;
+}
+
+nav ul li a {
+  padding: 20px;
+  letter-spacing: 1px;
+  color: #f5f5f5;
+}
+
+nav ul li a.active, nav ul li a:hover {
+  color: #0a0a0a !important;
+  background-color: white;
+}
+
+.posts {
+  width: fit-content;
+  max-width: 600px;
+  background-color: rgba(10, 10, 10, 0.5);
+  padding: 70px 80px 70px 220px;
+}
+
+.posts * {
+  color: #f5f5f5;
+}
+
+.posts .post {
+  max-width: 250px;
+}
+
+.posts .post .big-title {
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.posts .post .title {
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.posts .post .desc {
+  min-height: 200px;
+}
+
+.posts .post .desc * {
+  margin-bottom: 5px;
+}
+
+.posts .post .desc p.noimp {
+  color: #b4b4b4;
+}
+
+.posts .post .btn.main {
+  text-align: right;
+}
+
+.posts .post .btn.main a {
+  color: #0a0a0a;
+  background-color: white;
+  border: 1px solid white;
+  font-family: 'Economica';
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 20px;
+  display: inline;
+  margin-right: -80px;
+}
+
+.posts .post .btn.main a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.cards .card {
+  flex-basis: 235px;
+  max-height: 350px;
+  background-color: white;
+  margin: 0 20px;
+}
+
+.cards .card .hdr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.cards .card .hdr .title, .cards .card .hdr .num {
+  width: fit-content;
+  margin: 20px 0;
+}
+
+.cards .card .hdr .title {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.cards .card .hdr .num {
+  font-family: 'Open Sans Condensed';
+  font-size: 36px;
+  letter-spacing: -1px;
+  transform: scale(1, 1.2);
+}
+
+.cards .card .content .info p {
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+.cards .card .content .info p.noimp {
+  color: #b4b4b4;
+}
+
+.cards .card .content .pic.fw img {
+  width: 100%;
+}
+
+.cards .card .content .song-list {
+  padding: 0 20px;
+}
+
+.cards .card .content .song-list ul li a {
+  padding: 5px 20px;
+  font-weight: bold;
+  color: #0a0a0a;
+}
+
+.cards .card .content .song-list ul li a.active, .cards .card .content .song-list ul li a:hover {
+  background-color: #f0f0f0;
+}
+
+.cards .card .content .desc {
+  padding: 5px 0;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.cards .card .content .btn.main {
+  padding: 0 20px;
+}
+
+.cards .card .content .btn.main a {
+  color: #0a0a0a;
+  background-color: white;
+  font-family: 'Economica';
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 0 20px;
+}
+
+section#albums {
+  padding: 50px 0;
+  background-image: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5)), url("../img/city2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+section#albums .title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+section#albums .title p {
+  font-size: 36px;
+  color: white;
+  text-transform: uppercase;
+}
+
+section#albums .desc {
+  text-align: center;
+}
+
+section#albums .desc p {
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+}
+
+section#albums .albums {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+section#albums .albums .album {
+  flex-basis: 150px;
+  max-width: 150px;
+  margin: 0 20px;
+}
+
+section#albums .albums .album .pic {
+  margin: 10px 0;
+}
+
+section#albums .albums .album .pic.fw img {
+  width: 100%;
+}
+
+section#albums .albums .album .pic img {
+  height: 150px;
+}
+
+section#albums .albums .album .album-name {
+  margin: 10px 0;
+  text-align: center;
+}
+
+section#albums .albums .album .album-name p {
+  color: white;
+  text-transform: uppercase;
+}
+
+section#albums .albums .album .btn.sec {
+  margin: 10px 0;
+  border: 1px solid white;
+  text-align: center;
+  width: 80px;
+  margin: auto;
+}
+
+section#albums .albums .album .btn.sec a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+
+section#albums .albums .album .btn.sec a:hover {
+  background: white;
+  color: black;
+}

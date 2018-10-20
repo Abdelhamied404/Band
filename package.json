@@ -1,0 +1,26 @@
+{
+  "name": "band",
+  "version": "1.0.0",
+  "description": "band website is made specially for artists and it's suitable for all thier needs.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "band",
+    "website",
+    "artist",
+    "singer"
+  ],
+  "author": "Abdelhamied Mostafa",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.1"
+  }
+}

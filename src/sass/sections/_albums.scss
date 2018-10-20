@@ -1,0 +1,74 @@
+
+section#albums{
+    padding: 50px 0;
+    background-image: linear-gradient($tblack, $tblack) ,url("../img/city2.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    .title{
+        text-align: center;
+        margin-bottom: 10px;
+        p{
+            font-size: 36px;
+            color: white;
+            text-transform: uppercase;
+        }
+    }
+    .desc{
+        text-align: center;
+        p{
+            font-size: 18px;
+            color: white;
+            text-transform: uppercase;
+        }
+    }
+
+    .albums{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        .album{
+            flex-basis: 150px;
+            max-width: 150px;
+            margin: 0 20px;
+
+            .pic{
+                margin: 10px 0;
+                &.fw img{
+                    width: 100%;
+                }
+                img{
+                    height: 150px;
+                }
+            }
+
+            .album-name{
+                margin: 10px 0;
+                text-align: center;
+                p{
+                    color: white;
+                    text-transform: uppercase;
+                }
+            }
+            .btn.sec{
+                margin: 10px 0;
+                border: 1px solid white;
+                text-align: center;
+                width: 80px;
+                margin: auto;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    padding: 5px 10px;
+
+                    &:hover{
+                        background: white;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

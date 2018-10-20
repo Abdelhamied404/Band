@@ -1,0 +1,28 @@
+header{
+    background-color: $black;
+    display: flex;
+    padding: 40px 0;
+
+    .job-title{
+        border: 1px solid $gray;
+        width: 110px;
+        text-align: center;
+        margin: auto;
+        padding: 22px 0px;
+
+        .fname p, .lname p{
+            color: $white;
+            font-size: 18px;
+        }
+        .lname p{
+            margin-bottom: 10px;
+        }
+        .job p{
+            color: $gray;
+            font-size: 22px;
+            font-family: PostScriptum;
+            margin-bottom: -25px;
+        }
+
+    }
+}

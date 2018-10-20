@@ -1,0 +1,165 @@
+section#home{
+    background-image: url('../img/man_guitar_front.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    ul{
+        display: inline-flex;
+        margin-left: 200px;
+        li{
+            a{
+                padding: 20px;
+                // margin: 0 2px;
+                letter-spacing: 1px;
+                color: $white;
+                &.active, &:hover{
+                    color: $black !important;
+                    background-color: white;
+                }
+
+            }
+        }
+    }
+}
+
+.posts{
+    width: fit-content;
+    max-width: 600px;
+    background-color: $tblack;
+    padding: 70px 80px 70px 220px;
+    *{
+        color: $white;
+    }
+    .post{
+        max-width: 250px;
+        .big-title{
+            font-size: 48px;
+            text-transform: uppercase;
+        }
+        .title{
+            font-size: 34px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        .desc{
+            min-height: 200px;
+            *{
+                margin-bottom: 5px;
+            }
+            p.noimp{
+                color: #b4b4b4;
+            }
+        }
+        .btn.main{
+            text-align: right;
+            a{
+                color: $black;
+                background-color: white;
+                border: 1px solid white;
+                font-family: 'Economica';
+                letter-spacing: 1px;
+                font-weight: bold;
+                font-size: 14px;
+                padding: 10px 20px;
+                display: inline;
+                margin-right: -80px;
+                
+                &:hover{
+                    background-color: transparent;
+                    color: white;
+                }
+
+            }
+        }
+    }
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+    .card{
+        flex-basis: 235px;
+        max-height: 350px;
+        background-color: white;
+        margin: 0 20px;
+        
+        .hdr{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            .title, .num{
+                width: fit-content;
+                margin: 20px 0;
+            }
+
+            .title{
+                font-weight: bold;
+                font-size: 16px;
+                text-transform: uppercase;
+            }
+            .num{
+                font-family: 'Open Sans Condensed';
+                font-size: 36px;
+                letter-spacing: -1px;
+                transform: scale(1, 1.2);
+            }
+        }
+
+        .content{
+            
+            .info p{
+                margin: 10px 0;
+                padding: 0 20px;
+                &.noimp{
+                    color: #b4b4b4;
+                }
+            }
+            
+            .pic {
+                &.fw img{
+                    width: 100%;
+                }
+            }
+            .song-list{
+                padding: 0 20px;
+                ul{
+                    li{
+                        a{
+                            padding: 5px 20px;
+                            font-weight: bold;
+                            color: $black;
+                            &.active, &:hover{
+                                background-color: #f0f0f0;
+                            }
+                        }
+                    }
+                }
+            }
+            .desc{
+                padding: 5px 0;
+                text-align: center;
+                background-color: #f0f0f0;
+            }
+            
+            .btn.main{
+                padding: 0 20px;
+                a{
+                    color: $black;
+                    background-color: white;
+                    font-family: 'Economica';
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                    font-size: 14px;
+                    padding: 10px 0 20px;
+                }
+            }
+        }
+
+    }
+}
